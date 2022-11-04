@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+<group ns="/robot1">
+    <param name="robot_description" command="cat '$(find camera_robot)/models/my_robot/model.sdf'" />
+    
+    <arg name="init_pose" value="-x 2.4 -y -9.09 -z 0.1 -R 0 -P 0 -Y 0.42" />
+  
+
+    <node name="mybot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
+          args="$(arg init_pose) -sdf -param robot_description -model car1" />
+   
+</group>    
+
+<group ns="/robot2">
+    <param name="robot_description" command="cat '$(find camera_robot)/models/my_robot/model.sdf'" />
+    
+    <arg name="init_pose" value="-x 5.87 -y -7.13 -z 0 -R 0 -P 0 -Y 0.42" />
+  
+
+    <node name="mybot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
+          args="$(arg init_pose) -sdf -param robot_description -model car2" />
+</group>  
+
+<group ns="/robot3">
+    <param name="robot_description" command="cat '$(find camera_robot)/models/my_robot/model.sdf'" />
+    
+    <arg name="init_pose" value="-x 7.65 -y -6.87 -z 0 -R 0 -P 0 -Y 0.42" />
+  
+
+    <node name="mybot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
+          args="$(arg init_pose) -sdf -param robot_description -model car3" />
+</group>  
+          
+</launch>
+
+

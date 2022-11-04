@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <world name="default">
+
+    <model name="camera">
+    <plugin name='ros_link_attacher_plugin' filename='libgazebo_ros_link_attacher.so'/>
+
+  </model>
+  </world>
+</sdf>

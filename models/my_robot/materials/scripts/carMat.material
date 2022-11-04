@@ -1,0 +1,15 @@
+material carMat/Diffuse
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture car.png
+            }
+        }
+    }
+}
+
