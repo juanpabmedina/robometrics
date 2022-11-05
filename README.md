@@ -15,3 +15,19 @@ Gazebo traffic simulation of the center of the Pasto - Colombia with tracking ve
 Download the files into your catkin workspace.
 
 > catkin_ws/src/vehicle_trackin_system
+
+Create a python virtual enviroment and install the requirements.txt 
+
+```cmd
+pip install -r requirements.txt
+```
+
+Download the tracker and put into the scipts folder. (https://liveudenaredu-my.sharepoint.com/:u:/g/personal/juanpab_m_udenar_edu_co/ERXid4rkLOtNrwkIDczr0jgBhTlt7uxdqmNfu8h5VJab_Q?e=e0hHYW)
+
+
+
+Then compile your worksapce.
+
+```cmd
+catkin_make
+```
