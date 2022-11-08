@@ -2,8 +2,6 @@
 import rospy
 import cv2
 import numpy as np 
-import sys
-from PyQt5.QtWidgets import QApplication
 
 from camera_read import camera_1
 

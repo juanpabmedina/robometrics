@@ -35,8 +35,7 @@ class camera_1():
 
   def callback(self,data):
 
-    writer = cv2.VideoWriter('/home/juanpabmedina/Videos/detecctions.mp4', cv2.VideoWriter_fourcc(*'mp4v'), 20, (640,640))
-
+    
     plt.close('all')
     bridge = CvBridge()
 
@@ -157,8 +156,6 @@ class camera_1():
             color = (125, 246, 55),
             thickness = 2
             )
-
-    writer.write(img)
     
     ########################  IMAGE ###########################
 
