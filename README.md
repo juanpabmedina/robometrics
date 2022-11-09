@@ -1,9 +1,10 @@
-# GAZEBO-ROS: Vehicle System Tracking 
+# GAZEBO-ROS: Vehicle Tracking System  
 
 Gazebo traffic simulation of the center of the Pasto - Colombia with tracking vechicles using a trained YoloV5x model. 
 
 ## Specifications:
 
+* Developed in ubuntu 20.04
 * Scaled map of the center of Pasto - Colombia.
 * Cars moving on the streets.
 * Computer vision model runing in real time (YoloV5x).
@@ -52,6 +53,10 @@ pip install -r requirements.txt
 
 Download the tracker and put into the scipts folder. (https://liveudenaredu-my.sharepoint.com/:u:/g/personal/juanpab_m_udenar_edu_co/ERXid4rkLOtNrwkIDczr0jgBhTlt7uxdqmNfu8h5VJab_Q?e=e0hHYW)
 
+Now change some paths in the files:
+* In model.sdf change lines 26 an 27 for your catkin_ws path. 
+* In camera_read.py change for the tracker path in line 18 
+* 
 
 
 Then compile your worksapce.
