@@ -58,6 +58,11 @@ Now change some paths in the files:
 * In camera_read.py change for the tracker path in line 18 
 * In narino.world change line 114 and 141 for your catkin_ws path + the rest of the path already in the line.
 
+Now, inside your catkin_ws folder.
+
+```cmd
+source devel/setup.bash 
+```
 
 Then compile your worksapce.
 
