@@ -54,9 +54,9 @@ pip install -r requirements.txt
 Download the tracker and put into the scipts folder. (https://liveudenaredu-my.sharepoint.com/:u:/g/personal/juanpab_m_udenar_edu_co/ERXid4rkLOtNrwkIDczr0jgBhTlt7uxdqmNfu8h5VJab_Q?e=e0hHYW)
 
 Now change some paths in the files:
-* In model.sdf change lines 26 an 27 for your catkin_ws path. 
+* In model.sdf change lines 26 an 27 for your catkin_ws path + the rest of the path already in the line. 
 * In camera_read.py change for the tracker path in line 18 
-* 
+* In narino.world change line 114 and 141 for your catkin_ws path + the rest of the path already in the line.
 
 
 Then compile your worksapce.
